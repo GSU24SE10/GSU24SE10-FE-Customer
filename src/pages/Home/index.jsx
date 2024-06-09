@@ -32,7 +32,7 @@ const VisuallyHiddenInput = styled('input')({
 
 export default function Home() {
   return (
-    <Box component="div" sx={{ py: 2 }}>
+    <Box component="div" sx={{ pt: 2 }}>
       <Container component="div">
         <Typography variant="h2" fontWeight="bold" sx={{ textAlign: 'center' }}>
           Chúng tôi là Tập đoàn xây dựng hàng đầu

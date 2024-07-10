@@ -1,7 +1,7 @@
 import { useRoutes } from 'react-router-dom';
 
 import MainLayout from '../components/Layouts/MainLayout';
-import { ROUTE_PATH } from '../config/route_paths';
+import { ROUTE_PATH } from '../config/routePaths';
 import { Home, Service } from '../pages';
 
 const ProtectedRoute = () => {

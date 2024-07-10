@@ -193,12 +193,18 @@ export default function Home() {
                     p: 2,
                     backgroundColor: 'white',
                     borderRadius: 2,
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    flexDirection: 'column',
                   }}
                 >
-                  {value.icon}
-                  <Typography variant="h5" fontWeight="bold">
-                    {value.name}
-                  </Typography>
+                  <div>
+                    {value.icon}
+                    <Typography variant="h5" fontWeight="bold">
+                      {value.name}
+                    </Typography>
+                  </div>
                   <Button sx={{ mt: 2 }} endIcon={<ArrowForwardIosRounded />}>
                     Thông tin chi tiết
                   </Button>
@@ -356,12 +362,15 @@ export default function Home() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
+                    justifyContent: 'space-between',
                   }}
                 >
-                  <Box component="img" src={value.image} height={300} />
-                  <Typography sx={{ mt: 1 }} variant="h5" fontWeight="bold">
-                    {value.name}
-                  </Typography>
+                  <div>
+                    <Box component="img" src={value.image} height={300} />
+                    <Typography sx={{ mt: 1, textAlign: 'center' }} variant="h5" fontWeight="bold">
+                      {value.name}
+                    </Typography>
+                  </div>
                   <Box component="div" sx={{ display: 'flex', justifyContent: 'center' }}>
                     <Button endIcon={<ArrowForwardIosRounded />} sx={{ mt: 1 }}>
                       Chi tiết
@@ -458,12 +467,15 @@ export default function Home() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
+                    justifyContent: 'space-between',
                   }}
                 >
-                  <Box component="img" src={value.image} height={300} />
-                  <Typography sx={{ mt: 1 }} variant="h5" fontWeight="bold">
-                    {value.name}
-                  </Typography>
+                  <div>
+                    <Box component="img" src={value.image} height={300} />
+                    <Typography sx={{ mt: 1, textAlign: 'center' }} variant="h5" fontWeight="bold">
+                      {value.name}
+                    </Typography>
+                  </div>
                   <Box component="div" sx={{ display: 'flex', justifyContent: 'center' }}>
                     <Button endIcon={<ArrowForwardIosRounded />} sx={{ mt: 1 }}>
                       Chi tiết

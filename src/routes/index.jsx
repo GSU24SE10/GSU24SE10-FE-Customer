@@ -2,7 +2,7 @@ import { useRoutes } from 'react-router-dom';
 
 import MainLayout from '../components/Layouts/MainLayout';
 import { ROUTE_PATH } from '../config/routePaths';
-import { Home, Service } from '../pages';
+import { Home, Project, Service } from '../pages';
 
 const ProtectedRoute = () => {
   // const token = localStorage.getItem(common.LOCAL_STORAGE_KEYS.TOKEN);
@@ -29,6 +29,10 @@ export default function Router() {
         {
           path: ROUTE_PATH.SERVICE,
           element: <Service />,
+        },
+        {
+          path: ROUTE_PATH.PROJECT,
+          element: <Project />,
         },
       ],
     },

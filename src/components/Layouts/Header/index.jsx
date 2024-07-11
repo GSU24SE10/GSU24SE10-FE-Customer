@@ -7,7 +7,7 @@ import { ROUTE_PATH } from '../../../config/routePaths';
 const pages = [
   { pathName: ROUTE_PATH.HOME, name: 'Trang chủ' },
   { pathName: ROUTE_PATH.SERVICE, name: 'Dịch vụ' },
-  { pathName: '/', name: 'Dự án' },
+  { pathName: ROUTE_PATH.PROJECT, name: 'Dự án' },
   { pathName: '/', name: 'Thông tin' },
   { pathName: '/', name: 'Liên hệ' },
   { pathName: '/', name: 'Blog' },

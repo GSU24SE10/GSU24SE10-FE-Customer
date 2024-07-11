@@ -2,7 +2,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { AppBar, Box, Button, Container, Toolbar } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { ROUTE_PATH } from '../../../config/route_paths';
+import { ROUTE_PATH } from '../../../config/routePaths';
 
 const pages = [
   { pathName: ROUTE_PATH.HOME, name: 'Trang chủ' },
